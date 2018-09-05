@@ -1,5 +1,5 @@
-const load = require('./lib/load-projections')
+const projections = require('./lib/projections')
 
 module.exports = {
-  load
+  projections
 }
