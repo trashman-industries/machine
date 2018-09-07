@@ -16,7 +16,7 @@ const aliases = {
   'Mark Ingram': 'mark ingram ii',
   'Will Fuller': 'will fuller v',
   'Ronald Jones II': 'ronald jones',
-
+  'DJ Moore': 'D.J. Moore',
 
   'Baltimore': 'ravens dst',
   'Minnesota': 'vikings dst',
