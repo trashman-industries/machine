@@ -12,6 +12,7 @@ const calculateLineup = ({ players, projections }) => {
     flex: {},
     te: {},
     k: {},
+    dst: {},
     bench: [],
     total: 0
   }
@@ -91,6 +92,15 @@ const calculateLineup = ({ players, projections }) => {
           lineup.bench.push(player)
         }
 	    break
+
+      case 'dst':
+        if (!lineup.dst.player_name) {
+          lineup.dst = player
+          lineup.total += player.fantasy_points
+        } else {
+          lineup.bench.push(player)
+        }
+        break
     }
   })
 
