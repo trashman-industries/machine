@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "cached-request": "^1.1.4",
+    "gaussian": "^1.1.0",
     "request": "^2.88.0",
     "tough-cookie-filestore": "0.0.1"
   }
