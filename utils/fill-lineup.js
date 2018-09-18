@@ -34,7 +34,7 @@ const fillLineup = (lineup, available) => {
   if (!lineup.k.player_name) {
     const p = filterByPositions(['k'], available)[0]
     lineup.k = p
-    lineup.total += p.fantasy_points
+    lineup.total += p ? p.fantasy_points : 0
   }
   if (!lineup.flex.player_name) {
     const p = filterByPositions(['rb','wr'], available)[0]
