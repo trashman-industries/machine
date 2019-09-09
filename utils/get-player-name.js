@@ -18,6 +18,7 @@ const aliases = {
   'Ronald Jones II': 'ronald jones',
   'DJ Moore': 'D.J. Moore',
   'Paul Richardson': 'Paul Richardson Jr.',
+  'DK Metcalf': 'D.K. Metcalf',
 
   'Baltimore': 'ravens dst',
   'Minnesota': 'vikings dst',
