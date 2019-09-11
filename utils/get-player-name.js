@@ -2,6 +2,7 @@ const aliases = {
   'Chris Johnson': 'Chris D. Johnson',
   'Duke Johnson': 'Duke Johnson Jr.',
   'LeVeon Bell': 'Le\'Veon Bell',
+  'John Ross III': 'John Ross',
   'Marvin Jones' : 'Marvin Jones Jr.',
   'Mitch Trubisky' : 'Mitchell Trubisky',
   'Odell Beckham' : 'Odell Beckham Jr.',
